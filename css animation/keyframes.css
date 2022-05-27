@@ -1,0 +1,31 @@
+section{
+    /*animation: x 6s ease-in-out 1s 1 normal forwards;*/
+    height: 200px;
+    width: 400px;
+    margin: 300px;
+    transform:skewy(30deg);
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-size: 40px;
+    animation-name: x;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+@keyframes x{
+    0%{background-color: blueviolet; color: white;}
+    25%{background-color: aquamarine; color: blueviolet}
+    50%{background-color: blue; color: aquamarine}
+    75%{background-color: pink; color: blue}
+    100%{background-color: beige; color:aquamarine}
+    0%{width:10px}
+    25%{width:20px}
+    50%{width:100px}
+    75%{width:200px}
+    100%{width:400px}
+
+}
+
+
